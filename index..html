@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Conversor de monedas</title>
+</head>
+
+<body>
+    <form class="formulario" id="form">
+            <h2>Pesos ClP</h2>
+            <input type="text" id="monto" placeholder="Ingrese el monto en pesos chilenos ">
+            <h2>Moneda a convertir</h2>
+            <label for="select">seleccione una moneda</label>
+            <select name="select" id="select">
+            <option  disabled title="seleccionar">Seleccionar</option>
+            <option value="eur">Euro (EUR)</option>
+            <option  selected value="usd">Dolar (USD)</option>
+            </select>
+            <br>
+            <button type="button" class="button" id="button">Buscar</button>
+            <h2 id="resultado">El resultado es: </h2>
+    </form>
+    <script type="module" src="../Conversor de monedas/main.js"></script>
+</body>
+</html>
